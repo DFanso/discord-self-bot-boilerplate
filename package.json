@@ -1,0 +1,23 @@
+{
+  "name": "discord-self-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "node ndex.js",
+    "dev": "nodemon",
+    "start:prod": "node dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leo Gavin <leogavin123@outlook.com>",
+  "license": "ISC",
+  "repository": "https://github.com/DFanso/discord-self-bot-boilerplate.git",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js-selfbot-v13": "^3.1.4",
+    "libsodium-wrappers": "^0.7.13"
+  }
+}
